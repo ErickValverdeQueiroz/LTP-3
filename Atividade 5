@@ -1,0 +1,21 @@
+ //Atividade 03 - Questão 05
+ using System;
+ namespace atividade02
+ {
+    class atividade03_2
+    {
+        public static void Main(string[] args)
+        {
+            Console.WriteLine("Digite um número: ");
+            int numero = Convert.ToInt32(Console.ReadLine());
+            if (numero % 2 == 0)
+            {
+                Console.WriteLine("O numero "+ numero + " é par ");
+            }
+            else
+            {
+                Console.WriteLine("O número "+ numero + " é impar");
+            }
+        }
+    }
+ }
