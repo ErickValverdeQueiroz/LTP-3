@@ -1,0 +1,15 @@
+Atividade 03-
+//Atividade 3 - 01
+using System;
+ namespace atividade
+ {
+    class atividade03
+    {
+        public static void Main(string[] args)
+        {
+            Console.WriteLine("Coloque um número:");
+            int numero = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Seu numero é:" + numero);
+        }
+    }
+ }
