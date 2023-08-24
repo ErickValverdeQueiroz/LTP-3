@@ -1,0 +1,19 @@
+ //Atividade 03 - questão 04
+ using System;
+ namespace atividade03
+ {
+    class atividade
+    {
+        public static void Main(string[] args)
+        {
+            Console.WriteLine("Digite um Numero:");
+            int numeroUser = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Tabuada do número: " + numeroUser);
+            for (int i = 1; i <= 10; i++)
+            {
+                int resultado = numeroUser * i;
+                Console.WriteLine(numeroUser + "*" + i + "=" + resultado);
+            }
+        }
+    }
+ }
